@@ -56,7 +56,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Sorry {first}, You Are Not Joined In Our Channles, In Order To Access Files You Must Be Joined In The Channel...\n\n Kindly Please Join Our Channels First Ans Then Click On "Now Click Here" Button...!")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Sorry {first} You Are Not Joined In Our Channels... In Order To Access Files You Must Be Joined In The Channels...\n\n Kindly Please Join Our Channels First Ans Then Click On "Now Click Here" Button...!")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>» ʙʏ @IAS_MOVIESANDSERIES</b>")
