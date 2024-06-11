@@ -180,7 +180,13 @@ async def not_joined(client: Client, message: Message):
             InlineKeyboardButton(text="• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=client.invitelink2),
         ],
         [
-            InlineKeyboardButton(text="• ɴᴏᴡ ᴄʟɪᴄᴋ ʜᴇʀᴇ •'", url=f"https://t.me/{client.username}?start={message.command[1]}"
+            InlineKeyboardButton(text="• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=client.invitelink3),
+        ]
+    ]
+    try:
+        buttons.append(
+            [
+                InlineKeyboardButton(text="• ɴᴏᴡ ᴄʟɪᴄᴋ ʜᴇʀᴇ •", url=f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
         )
