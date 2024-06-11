@@ -56,7 +56,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(f"Please Double check the FORCESUB_CHANNEL2 value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {FORCESUB_CHANNEL2}")
                 self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/weebs_support for support")
                 sys.exit()
-         if FORCESUB_CHANNEL3:
+        if FORCESUB_CHANNEL3:
             try:
                 link = (await self.get_chat(FORCESUB_CHANNEL3)).invite_link
                 if not link:
@@ -66,9 +66,9 @@ class Bot(Client):
             except Exception as a:
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
-                self.LOGGER(__name__).warning(f"Please Double check the FORCESUB_CHANNEL3 value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {FORCESUB_CHANNEL2}")
+                self.LOGGER(__name__).warning(f"Please Double check the FORCESUB_CHANNEL3 value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {FORCESUB_CHANNEL3}")
                 self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/weebs_support for support")
-                sys.exit()
+                sys.exit()       
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
             self.db_channel = db_channel
