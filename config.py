@@ -34,11 +34,11 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 #force sub channel id, if you want enable force sub
 FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002145190977"))
 FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002241322609"))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002145190977"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #token varibles
-# my shortner https://dashboard.shareus.io/signup/lifetime/U9AZbV
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "exe.io")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "9080a6eaa8370741a097a770e17e7262f1881190")
