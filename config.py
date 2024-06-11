@@ -40,11 +40,11 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #token varibles
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "exe.io")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "9080a6eaa8370741a097a770e17e7262f1881190")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 2592000)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://youtu.be/pQ6G5wi1tWA?")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', )) # Add time in seconds
+IS_VERIFY = os.environ.get("IS_VERIFY", "False")
+TUT_VID = os.environ.get("TUT_VID","")
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇʀ ʙᴏᴛ ᴏꜰ ɪᴀꜱ ᴍᴏᴠɪᴇꜱ & ꜱᴇʀɪᴇꜱ, ɪ ꜱᴛᴏʀᴇ ꜰɪʟᴇꜱ ɪɴꜱɪᴅᴇ ᴍᴇ ᴀɴᴅ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴛʜᴇᴍ ʙʏ ꜱᴏʟᴠɪɴɢ ꜱʜᴏʀᴛᴇɴᴇʀ ꜰʀᴏᴍ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ!\n» @IAS_MOVIESANDSERIES</b>")
